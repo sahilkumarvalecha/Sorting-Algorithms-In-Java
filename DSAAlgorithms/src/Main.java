@@ -18,5 +18,11 @@ public class Main {
         Algorithms.printArray(Algorithms.insertionSort(array));
         System.out.println("Time Complexity Big O(n^2)");
         System.out.println();
+
+        System.out.print("Merge Sort: ");
+        Algorithms.division(array,0, array.length-1);
+        Algorithms.printArray(array);
+        System.out.println("Time Complexity Big O(n^2)");
+        System.out.println();
     }
 }
